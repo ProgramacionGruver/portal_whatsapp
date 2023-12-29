@@ -1,6 +1,8 @@
 import { Request, Response } from "express";
 import { LeadCreate } from "../../application/lead.create";
 
+// RESTRICCIONES DE WHATSAPP(POLITICA SPAM)
+//https://faq.whatsapp.com/652901706468344/?helpref=hc_fnav 
 class LeadCtrl {
   constructor(private readonly leadCreator: LeadCreate) {}
 
